@@ -13,7 +13,7 @@ public class Test {
 		b.f3(); //Gibt C2::f3 aus, weil C2 f3() als erweiterte Methode besitzt
 		//C1 c = new C1(); c.f3(); c.f3() FEHLER! f3 ist nicht in C1 enthalten, wird bei C2 als Erweiterung implementiert
 		//C1 c = new C1(); ((C2) c).f1(); //C1 kann nicht in C2 typcastet werden
-		
+		System.out.println("Test");
 		}
 	
 }
