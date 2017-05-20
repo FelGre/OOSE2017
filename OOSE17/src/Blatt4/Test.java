@@ -11,6 +11,7 @@ public class Test {
 		System.out.println(m1.applyOperator(o).toString());
 		}
 		
+		//Tests von Distanzberechnungen
 		Point p1 =  new Point(3,9);
 		Point p2 =  new Point(14,19);
 		System.out.println(p1.distance(p1, p2));

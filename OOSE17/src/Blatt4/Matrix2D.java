@@ -2,7 +2,7 @@ package Blatt4;
 
 public class Matrix2D {
 	
-	public double[] sammlung = new double[4];
+	public double[] sammlung = new double[4]; //Array erstellen, welches alle vier Werte der Matrix speichern soll
 	
 	public Matrix2D(double w1, double w2, double w3, double w4){
 		sammlung[0] = w1; //1. Zeile, 1. Element
@@ -12,9 +12,9 @@ public class Matrix2D {
 	}
 	
 	public String toString(){
-		String leseform;
-		leseform = "1,1 = " + sammlung[0] + ",  1,2 = " + sammlung[1] + ", 2,1 = " + sammlung[2] + ", 2,2 = " + sammlung[3]; 
-		return leseform;
+		String leseform; //Lokalen String deklarieren
+		leseform = "1,1 = " + sammlung[0] + ",  1,2 = " + sammlung[1] + ", 2,1 = " + sammlung[2] + ", 2,2 = " + sammlung[3]; //Koordinaten als leserlichen String zusammenfügen
+		return leseform; //Finalen String zurückgeben
 	}
 	
 	public Object applyOperator(Operator o) {
