@@ -10,6 +10,7 @@ public class Product {
 	//Link zum offiziellen Tutorial, welches  die Sichtbarkeiten der Modifier erklärt: http://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html
 		
 	
+	//Konstruktor
 	public Product(String name, String desc, double price) {
 			this.name = name;
 			this.description = desc;
