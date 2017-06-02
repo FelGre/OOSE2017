@@ -29,19 +29,11 @@ public class Angestellter {
 		return gehalt;
 	}
 	
-	public void setVorname(String vorname){
-		this.vorname = vorname;
+	public void altern(){
+		alter ++;
 	}
 	
-	public void setNachname(String nachname){
-		this.nachname = nachname;
-	}
-	
-	public void setAlter(int alter){
-		this.alter = alter;
-	}
-	
-	public void setGehalt(int gehalt){
-		this.gehalt = gehalt;
+	public void gehalterhoehen(int summe){
+		gehalt += summe;
 	}
 }
