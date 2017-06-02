@@ -23,7 +23,5 @@ public class Product {
 
 		
 		
-		private String getName(){
-			return name;
-		}
+		
 }
