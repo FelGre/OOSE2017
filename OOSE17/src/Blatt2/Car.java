@@ -2,10 +2,10 @@ package Blatt2;
 
 public class Car {
 	//ZU
-	private Delict[] delicts = new Delict[5];
-	private String licensePlate;
-	private String owner;
-	private String address;
+	private Delict[] delicts = new Delict[5]; //Array zum speichern von Delikten
+	private String licensePlate; //Nummernschild
+	private String owner;	//Besitzer	
+	private String address;	//Adresse
 	
 	public Car(String licensePlate, String owner, String address){
 		this.licensePlate = licensePlate;

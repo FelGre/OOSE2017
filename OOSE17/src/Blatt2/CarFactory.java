@@ -4,7 +4,7 @@ import java.util.Random;
 public class CarFactory {
 	
 	public static void main(String[] args) {
-		buildCar("asfasf", "asdasd");
+		System.out.println(buildCar("Eva Troppe", "Teststraße 111").toString());
 	}
 	public static Car buildCar(String owner, String owneraddress){
 		Random rand = new Random();

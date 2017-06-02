@@ -1,11 +1,13 @@
 package Blatt4;
 
 public class traceOperator implements Operator {
+	
+	//Funktion zur Berechnung der Spur einer Ã¼bergebenen 2DMatrix
 	public Object execute(Object matrix) { 
-		Matrix2D neuematrix = (Matrix2D) matrix; //Übergebenes Objekt in Matrix2D-Variable speichern und casten
+		Matrix2D neuematrix = (Matrix2D) matrix; //ï¿½bergebenes Objekt in Matrix2D-Variable speichern und casten
 		double spur;
 		spur = neuematrix.sammlung[0] + neuematrix.sammlung[3]; //Spur berechnen
-		return spur; //Spur zurückgeben
+		return spur; //Spur zurï¿½ckgeben
 	}
 
 }
