@@ -9,7 +9,7 @@ public class Clothing extends Product {
 		super(name, desc, price);
 		this.groesse = groesse;
 		this.material = material;
-		// TODO Auto-generated constructor stub
+		
 	}
 	
 	public String toString(){
