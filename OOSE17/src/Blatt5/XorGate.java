@@ -7,5 +7,8 @@ public class XorGate extends Component{
 		if(inputs.get(0).state == false && inputs.get(1).state == true) return true; //Wenn genau einer der Eingänge true, dann true
 		if(inputs.get(0).state == true && inputs.get(1).state == false) return true;
 		else return false;
+		
+		//Kommentar von Francois: Unnötig viel Code. Alle boolschen Operatoren geben quasi schon boolsche Werte zurück, deswegen ist besser: 
+		//return inputs.get(0).state != inputs.get(1).state
 	}
 }
