@@ -1,3 +1,5 @@
+package Blatt5;
+
 public class OrGate extends Component {
 	@Override
 	public boolean function(java.util.ArrayList<Component> inputs) {

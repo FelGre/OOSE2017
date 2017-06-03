@@ -1,3 +1,5 @@
+package Blatt5;
+
 
 public class NandGate extends Component{
 	@Override

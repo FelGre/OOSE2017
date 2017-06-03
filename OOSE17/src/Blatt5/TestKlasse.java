@@ -1,3 +1,5 @@
+package Blatt5;
+
 
 public class TestKlasse { //Aufgabe b) Teste Xor mit And,or,not
 

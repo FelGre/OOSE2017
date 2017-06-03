@@ -1,3 +1,5 @@
+package Blatt5;
+
 public class NorGate extends Component{
 	public boolean function(java.util.ArrayList<Component> inputs){
 		for (Component c : inputs){

@@ -1,3 +1,5 @@
+package Blatt5;
+
 public class PassGate extends Component {
 	@Override
 	public boolean function(java.util.ArrayList<Component> inputs) {
